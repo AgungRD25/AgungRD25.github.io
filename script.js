@@ -4,7 +4,7 @@
 /* ===== 1. The opening-hours rule (§3) ===== */
 
 function isOpen(hour) {
-  return hour >= 20 && hour < 22;
+  return hour >= 11 && hour < 22;
 }
 
 /* ===== 2. Show today's status in the header (§3) ===== */
